@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: #fcfbff;
+  background-color: #edecea;
   display: flex;
   justify-content: center;
 }
@@ -43,12 +43,17 @@ header {
   position: fixed;
   top: 0;
   z-index: 999;
-  background-color: #fcfbff;
+  background-color: #b3d0d8;
   box-shadow: 0 1px 0 #ececec;
   max-width: 1120px;
   width: 100%;
 }
 
+#logo {
+  width: 10%;
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
 .nav-list {
   display: flex;
   gap: 30px;
